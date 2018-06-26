@@ -1,0 +1,661 @@
+/* of imports to the page of style*/
+@import url('https://fonts.googleapis.com/css?family=Allerta|Anton|Assistant|IBM+Plex+Sans|Nobile|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Abel|Fjalla+One');
+/* screen of tablets and mobiles */
+*{
+	margin:0;
+	padding:0;
+}
+
+/* the screen of pc dektops */
+@media screen and (min-device-width: 1000px) and (max-device-width: 3000px){
+header{
+		background: yellow;
+		width: 100%;
+		height: 65px;
+	}
+
+	.contenedor{
+		width: 90%;
+		margin:auto;
+		display: table;
+	}
+
+	.box{
+		display: inline-block;
+		vertical-align: top;
+		width: 100%;
+	}
+
+	.box_logo{
+		display: inline-block;
+		vertical-align: top;
+		width: 40%;
+	}
+
+	#menu{
+		float:right;
+		padding:20px;
+	}
+
+	#none{
+		width: 61px;
+	}
+
+	#logo{
+		width: 145px;
+		margin:5px;
+	}
+
+	/* the buttom for mobile design */
+
+	#boton_menu{
+		display: none;
+	}
+
+	#menu ul{
+
+	}
+
+	#menu ul a{
+		text-decoration: none;
+		color:black;
+		padding:5px;
+		margin-left: 1.7em;
+		padding-top:2px;
+		font-family: 'Oswald', sans-serif;
+		border-bottom: 1px solid black;
+	}
+
+	#menu ul a:hover{
+		background: white;
+		transition: 0.7s
+	}
+
+	#banner{
+		width: 100%;
+		height: 230px;
+		background: url('../img/library.jpg') no-repeat;
+		background-position: center;
+	}
+
+	#caja_izquierda{
+		width: 55%;
+		height: 100%;
+		background: rgba(0,0,0,0.4);
+		margin:auto;
+	}
+
+	#caja_izquierda h2{
+		color:white;
+		text-align: center;
+		font-size: 250%;
+		padding:10%;
+		padding-bottom: 0%;
+		padding-top:5%;
+		font-family: 'Oswald', sans-serif;
+	}
+
+	#caja_izquierda p{
+		font-family: 'Roboto', sans-serif;
+		color:white;
+		text-align: center;
+		padding:5%;
+		padding-top:0;
+		padding-bottom: 1%;
+	}
+
+	#caja_izquierda a{
+		background: black;
+		text-decoration: none;
+		font-size: 90%;
+		color:white;
+		padding:8px;
+
+		border-radius: 14px;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	#caja_izquierda a:hover{
+		background: gray ;
+		transition: 0.2s;
+	}
+
+	#caja_izquierda a:active{
+		background: yellow;
+		color:black;
+		padding:3%;
+		transition: 0.3s;
+	}
+	
+	/*this is section main*/
+	
+	section{
+		width: 80%;
+		margin:auto;
+	}
+
+	#button{
+		height: 54px;
+	}
+
+	.buttomes_js{
+		width: 20%;
+		padding:5px;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.alone{
+		width: 10%;
+	}
+
+	.buttomes_js select{
+		border:0;
+	}
+
+	.buttomes_js h3{
+		font-size: 10px;
+		padding: 2px;
+		font-family: 'IBM Plex Sans', sans-serif;
+	}
+
+	input{
+		border:0;
+		margin-top:16px;
+		padding: 5px;
+	}
+
+	.box_curso{
+		width: 300px;
+		height: 280px;
+		background: #f4f5f0;
+		display: inline-block;
+		box-shadow: 2px 2px 5px #dad7d7;
+		margin:10px;
+	}
+
+	.box_curso img{
+		width: 100%;
+	}
+
+	.box_curso h1{
+		background: #adadad;
+		font-family: 'Fjalla One', sans-serif;
+		padding: 5px;
+		margin-top: -4px;
+		color:white;
+	}
+
+	.box_curso h6{
+		padding: 5px;
+		font-family: 'Abel', sans-serif;
+		color:black;
+		font-size: 13px;
+	}
+	
+	.box_curso a{
+		text-decoration: none;
+	}
+
+	.box_curso h2{
+		font-size: 15px;
+		color:white;
+		background: black;
+		width: 100px;
+		position: absolute;
+		font-family: 'Abel', sans-serif;
+	}
+
+
+
+	/* the footer of page */
+		footer{
+		background: black;
+	}
+
+	footer .box{
+		margin:auto;
+	}
+	footer h2{
+		color:white;
+		font-size: 10px;
+		padding: 5px;
+		font-family: 'IBM Plex Sans', sans-serif;
+	}
+}
+
+
+/* the screen of tablet and smartphone*/
+@media screen and (min-device-width: 400px) and (max-device-width: 1000px){
+
+	header{
+		background: yellow;
+		width: 100%;
+		height: 75px;
+	}
+
+	.contenedor{
+		width: 98%;
+		margin:auto;
+		display: table;
+	}
+
+	.box{
+		display: inline-block;
+		vertical-align: top;
+		width: 100%;
+	}
+
+	.box_logo{
+		display: inline-block;
+		vertical-align: top;
+		width: 40%;
+	}
+
+	#menu{
+		float:right;
+		padding:10px;
+	}
+
+	#none{
+		display: none;
+
+	}
+
+	#logo{
+		width: 165px;
+		margin:5px;
+	}
+
+	/* the buttom for mobile design */
+
+	#boton_menu{
+		display: ;
+		width:30px;
+		float: right;
+		margin-right: 35px;
+	}
+
+	#menu ul{
+		
+		height: 100vh;
+		position: absolute;
+		background: rgba(0,0,0,0.5);
+		display: block;
+		margin-left: 19% ;
+		top: 24%;
+		left: -100%;
+	}
+
+	#menu ul a{
+		color:white;
+		text-decoration: none;
+		display: block;
+		padding: 20px;
+		border-bottom: 1px solid white;
+	}
+
+	#banner{
+		width: 100%;
+		height: 230px;
+		background: url('../img/library.jpg') no-repeat;
+		background-position: center;
+	}
+
+	#caja_izquierda{
+		width: 100%;
+		height: 100%;
+		background: rgba(0,0,0,0.4);
+	}
+
+	#caja_izquierda h2{
+		color:white;
+		text-align: center;
+		font-size: 250%;
+		padding:10%;
+		padding-bottom: 0%;
+		padding-top:5%;
+		font-family: 'Oswald', sans-serif;
+	}
+
+	#caja_izquierda p{
+		font-family: 'Roboto', sans-serif;
+		color:white;
+		text-align: center;
+		padding:5%;
+		padding-top:0;
+		padding-bottom: 1%;
+	}
+
+	#caja_izquierda a{
+		background: black;
+		text-decoration: none;
+		font-size: 90%;
+		color:white;
+		padding:8px;
+
+		border-radius: 14px;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	#caja_izquierda a:hover{
+		background: gray ;
+		transition: 0.5s;
+	}
+
+	#caja_izquierda a:active{
+		background: yellow;
+		color:black;
+		padding:3%;
+		transition: 0.3s;
+	}
+	
+	/* this section main*/
+
+	section{
+		width: 90%;
+		margin:auto;
+	}
+
+	#button{
+		height: 54px;
+	}
+
+	.buttomes_js{
+		width: 23%;
+		padding:5px;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.alone{
+		width: 12%;
+	}
+
+	.buttomes_js select{
+		border:0;
+	}
+
+	.buttomes_js h3{
+		font-size: 10px;
+		padding: 2px;
+		font-family: 'IBM Plex Sans', sans-serif;
+	}
+
+	input{
+		border:0;
+		margin-top:16px;
+		padding: 5px;
+	}
+
+	.box_curso{
+		width: 300px;
+		height: 280px;
+		background: #f4f5f0;
+		display: inline-block;
+		box-shadow: 2px 2px 5px #dad7d7;
+		margin:10px;
+	}
+
+	.box_curso img{
+		width: 100%;
+	}
+
+	.box_curso h1{
+		background: #adadad;
+		font-family: 'Fjalla One', sans-serif;
+		padding: 5px;
+		margin-top: -4px;
+		color:white;
+	}
+
+	.box_curso h6{
+		padding: 5px;
+		font-family: 'Abel', sans-serif;
+		color:black;
+		font-size: 13px;
+	}
+	
+	.box_curso a{
+		text-decoration: none;
+	}
+	
+	.box_curso h2{
+		font-size: 15px;
+		color:white;
+		background: black;
+		width: 100px;
+		position: absolute;
+		font-family: 'Abel', sans-serif;
+	}
+
+	/* footer of site*/
+	footer{
+		background: black;
+	}
+
+	footer .box{
+		margin:auto;
+	}
+	footer h2{
+		color:white;
+		font-size: 10px;
+		padding: 5px;
+		font-family: 'IBM Plex Sans', sans-serif;
+	}
+}
+
+/*
+**
+**
+**
+**
+*/
+/* the screen of mobile*/
+@media screen and (max-device-width: 400px){
+	header{
+		background: yellow;
+		position: fixed;
+		display: inline-block;
+	}
+	.contenedor{
+		width: 98%;
+		margin:auto;
+	}
+
+	.box{
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.box_logo{
+		display: inline-block;
+		vertical-align: top;
+		padding: 10px;
+	}
+
+	.box_logo{
+		width: 30%;
+	}
+
+	#logo{
+		width: 100%;
+	}
+
+	#boton_menu{
+		width: 30%;
+		float:right;
+	}
+
+	#menu{
+		width: 50%;
+	}
+
+	#none{
+		display: none;
+	}
+
+	ul{
+		position: absolute;
+		background: rgba(0,0,0,0.8);
+		width: 100%;
+		height: 100vh;
+		display: table;
+		left: -100%;
+		top:70px;
+	}
+
+	#menu a{
+		display: block;
+		width: auto;
+		padding:15px;
+		border-bottom:1px solid white;
+		text-decoration: none;
+		color:white;
+		font-family: 'Anton', sans-serif;
+	}
+
+	#banner{
+		width: 100%;
+		height: 400px;
+		display: inline-block;
+		background: url('../img/library.jpg');
+		background-position: center ;
+		margin-top:23%;
+		
+	}
+
+	#caja_izquierda{
+		background: rgba(0,0,0,0.6);
+		margin:auto;
+		height: 100%;
+	}
+
+	#caja_izquierda h2{
+		color:white;
+		text-align: center;
+		font-size: 250%;
+		padding:10%;
+		padding-bottom: 0%;
+		font-family: 'Oswald', sans-serif;
+	}
+
+	#caja_izquierda p{
+		font-family: 'Roboto', sans-serif;
+		color:white;
+		padding:5%;
+		padding-top: 1%;
+	}
+
+	#caja_izquierda a{
+		background: white;
+		text-decoration: none;
+		font-size: 90%;
+		color:black;
+		padding:2%;
+		border-radius: 14px;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	#caja_izquierda a:active{
+		background: yellow;
+		color:black;
+		padding:5%;
+		animation: 1s;
+	}
+
+	/* style main */
+	section{
+		width: 98%;
+		margin:auto;
+	}
+
+	#button{
+		height: 90px;
+	}
+
+	.buttomes_js{
+		width: 50%;
+		padding:5px;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.alone{
+		width: 30%;
+	}
+
+	.buttomes_js select{
+		border:0;
+	}
+
+	.buttomes_js h3{
+		font-size: 10px;
+		padding: 2px;
+		font-family: 'IBM Plex Sans', sans-serif;
+	}
+
+	input{
+		border:0;
+		margin:2px;
+		padding: 5px;
+	}
+
+	.box_curso{
+		background: #f4f5f0;
+		display: block;
+		margin-bottom:30px; 
+		margin-top:30px;
+	}
+
+	.box_curso img{
+		width: 100%;
+	}
+
+	.box_curso h1{
+		background: #adadad;
+		font-family: 'Fjalla One', sans-serif;
+		padding: 5px;
+		margin-top: -4px;
+		color:white;
+	}
+
+	.box_curso h6{
+		padding: 5px;
+		font-family: 'Abel', sans-serif;
+		color:black;
+		font-size: 13px;
+	}
+	
+	.box_curso a{
+		text-decoration: none;
+	}
+	
+	.box_curso h2{
+		font-size: 15px;
+		color:white;
+		background: black;
+		width: 100px;
+		position: absolute;
+		font-family: 'Abel', sans-serif;
+	}
+
+	/* footer of page */
+	footer{
+		background: black;
+	}
+
+	footer .box{
+		margin:auto;
+	}
+	footer h2{
+		color:white;
+		font-size: 70%;
+		padding: 5%;
+		font-family: 'IBM Plex Sans', sans-serif;
+	}
+	
+	
+}
